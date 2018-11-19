@@ -65,8 +65,8 @@ $(".results").click(function () {
 
 //defining tile laters with OpenWeatherMap App ID
 let osm = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png');
-let precip = L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=' + myKey);
-let temp = L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=' + myKey);
+let precip = L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?units=imp&appid=' + myKey);
+let temp = L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?units=imp&appid=' + myKey);
 
 
 
@@ -111,7 +111,7 @@ function createPopup(feature, layer) {
     const lat = feature.properties.latitude;
 
     //Add the lat lon of where the user clicks to the API request
-    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=imperial&APPID=${myKey}`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=imp&APPID=${myKey}`)
       .then(res => res.json())
       .then(data => weather = data)
       .then(weather => showData(weather))
@@ -265,7 +265,6 @@ else {
   // import key
   const searchURL = 'https://api.openweathermap.org/data/2.5/weather';
   const myKey = config.MY_KEY;
-  const imp = 'imperial';
   
   
   
@@ -324,8 +323,8 @@ else {
   
   //defining tile laters with OpenWeatherMap App ID
   let osm = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png');
-  let precip = L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=' + myKey),
-  temp = L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid=' + myKey);
+  let precip = L.tileLayer('https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?units=imp&appid=' + myKey),
+  temp = L.tileLayer('https://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?units=imp&appid=' + myKey);
   
   
   
@@ -371,7 +370,7 @@ else {
       const lat = feature.properties.latitude;
   
       //Add the lat lon of where the user clicks to the API request
-      fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=imperial&APPID=${myKey}`)
+      fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=imp&APPID=${myKey}`)
         .then(res => res.json())
         .then(data => weather = data)
         .then(weather => showData(weather))
