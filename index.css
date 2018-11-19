@@ -128,7 +128,7 @@
   .snow{
     width: 350px;
     position:absolute;
-    top:96vh;
+    top:95vh;
     left: 2vw;
     border-radius: 5px;
     border: 1px solid rgb(88, 88, 88);
@@ -143,7 +143,7 @@
   .snow{
     width: 500px;
     position:absolute;
-    top:97vh;
+    top:95vh;
     left: 2vw;
     border-radius: 5px;
     border: 1px solid rgb(88, 88, 88);
@@ -253,7 +253,7 @@
     .snow{
       width: 250px;
       position:absolute;
-      top:96vh;
+      top:95vh;
       left: 3vw;
       border-radius: 5px;
       border: 1px solid rgb(88, 88, 88);
@@ -303,7 +303,7 @@
     .snow{
       width: 200px;
       position:absolute;
-      top:105vh;
+      top:97vh;
       left: 3vw;
       border-radius: 5px;
       border: 1px solid rgb(88, 88, 88);

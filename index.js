@@ -264,7 +264,7 @@ else {
 
   // import key
   const searchURL = 'https://api.openweathermap.org/data/2.5/weather';
-  const myKey = config.MY_KEY;
+  const myKey = configtest;
   
   
   
