@@ -15,27 +15,27 @@ A ski area layer was also added as a geoJSON to allow the user to discover new s
 ## Screenshots
 Main Page:
 
-![main page](screenshots/mainPage.jpg)
+![main page](screenshots/mainPage.png)
 
 Layers Control:
 
-![layers](screenshots/layers.jpg)
+![layers](screenshots/layers.png)
 
 Location Search Results:
 
-![results](screenshots/searchResults.jpg)
+![results](screenshots/searchResults.png)
 
 Weather Results and Map Zoom:
 
-![weather results](screenshots/weatherResults.jpg)
+![weather results](screenshots/weatherResults.png)
 
 Icon and Popup:
 
-![weather results](screenshots/iconPopup.jpg)
+![weather results](screenshots/iconPopup.png)
 
 Mobile Version:
 
-![mobile](screenshots/mobile.jpg)
+![mobile](screenshots/mobile.png)
 
 
 ## Built with
