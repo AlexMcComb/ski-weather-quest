@@ -251,12 +251,7 @@
     }
   
     .snow{
-      width: 250px;
-      position:absolute;
-      top:92vh;
-      left: 3vw;
-      border-radius: 5px;
-      border: 1px solid rgb(88, 88, 88);
+    display:none;
     }
   }
   
@@ -301,12 +296,7 @@
       }
   
     .snow{
-      width: 200px;
-      position:absolute;
-      top:90vh;
-      left: 3vw;
-      border-radius: 5px;
-      border: 1px solid rgb(88, 88, 88);
+      display: none;
       }
   }
   
