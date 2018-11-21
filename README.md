@@ -10,7 +10,7 @@ A ski area layer was also added as a geoJSON to allow the user to discover new s
 
 ## Built with
 
-The OpenWeatherMap and Nominatim reverse geocoder API, HTML, CSS, Leaflet, JavaScript, jQuery, geoJSON, and AJAX. 
+The OpenWeatherMap and Nominatim reverse geocoder API, HTML, CSS, Leaflet, JavaScript, jQuery, AJAX, and geoJSON. 
 
 
 ## Demo
